@@ -1,0 +1,117 @@
+        @font-face {
+            font-family: 'btitr';
+            src: url('../fonts/BTitrBold.woff') format('woff'),
+            url('../fonts/BTitrBold.eot') format('eot');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'btraffic';
+            src: url('../fonts/BTraffic.woff') format('woff'),
+            url('../fonts/BTraffic.eot') format('eot');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        * {
+            font-family: btraffic;
+            color: white;
+        }
+
+        input, select, option {
+            color: black;
+        }
+
+        body {
+            background-color: black;
+            font-size: 14px;
+            direction: rtl;
+        }
+
+        #wrapper {
+            position: absolute;
+            margin-top: 20px;
+            margin-left:5%;
+            margin-right: 5%;
+            width: 90%;
+        }
+
+        #container {
+            border: 2px solid white;
+            height: 500px;
+            width: 90%;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #person {
+            position: relative;
+        }
+
+        #person img {
+            width: 250px;
+        }
+
+        #message {
+            color: white;
+            flex-grow: 1;
+            text-align: center;
+            padding-left: 20px;
+        }
+
+        #message p {
+            font-size: 500%;
+            font-family: btitr;
+        }
+
+        #title {
+            color: white;
+            text-align: center;
+            font: 20px btitr;
+            margin-bottom: 10px;
+        }
+
+        #label {
+            font: 150% btitr;
+        }
+
+        #question {
+            font: 150% btraffic;
+        }
+
+        #new-q {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        #new-q input, #new-q select {
+            padding: 5px 10px;
+            border-radius: 10px;
+        }
+
+        #new-q input[type=text] {
+            width: 50%;
+            border-radius: 10px;
+        }
+
+        #new-q input~input {
+            margin-right: 5px;
+            border-radius: 10px;
+        }
+
+        #copyright {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        #person-name {
+            text-align: center;
+            font-size: 200%;
+            position: absolute;
+            bottom: 9px;
+            width: 100%;
+            background-color: #0000005e;
+        }
